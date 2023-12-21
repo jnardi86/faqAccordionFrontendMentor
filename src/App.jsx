@@ -1,10 +1,11 @@
-import AccordionView from "./components/AccordionView"
+import FaqsView from "./components/FaqsView";
+
 
 function App() {
 
 
   return (
-    <AccordionView />
+    <FaqsView/>
   )
 }
 

@@ -16,8 +16,8 @@ export default {
         workSans: ['Work Sans', 'sans-serif'], 
       },
       backgroundImage: {
-        'bg-patter-desktop': "url('./src/assets/images/background-pattern-desktop.svg')",
-        'bg-patter-mobile': "url('./src/assets/images/background-pattern-mobile.svg')",
+        'pattern-desktop': "url('/src/assets/images/background-pattern-desktop.svg')",
+        'pattern-mobile': "url('./src/assets/images/background-pattern-mobile.svg')",
       }
     },
   },
