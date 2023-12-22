@@ -14,14 +14,14 @@ const Question = ({ question }) => {
     return (
         <article onClick={toggleShow}>
             <div className='grid grid-cols-12'>
-                <h3 className='col-span-11 font-workSans font-bold'>{question.question}</h3>
+                <h3 className='col-span-11 font-workSans font-bold py-5 text-lg'>{question.question}</h3>
                 <button className='col-span-1 place-self-center' >
                     {
                         isShowingFaq ? <img src={minus} alt="" /> : <img src={plus} alt="" />
                     }
                 </button>
             </div>
-            {isShowingFaq && <p className='font-workSans font-normal'>{question.answer}</p>}
+            {isShowingFaq && <p className='font-workSans font-normal text-sm text-left'>{question.answer}</p>}
         </article>
     );
 };
