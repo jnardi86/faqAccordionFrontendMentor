@@ -9,3 +9,5 @@ Languages and technologies:
   <li>Tailwindcss</li>
   <li>React</li>
 </ul>
+<a href="https://jnardi86.github.io/faqAccordionFrontendMentor/">Link</a>
+
