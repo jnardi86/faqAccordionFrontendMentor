@@ -1,8 +1,11 @@
 # Challenge Frontend Mentor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Challenge: build out a FAQ accordion. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Languages and technologies:
+<ul>
+  <li>HTML</li>
+  <li>JS</li>
+  <li>Tailwindcss</li>
+  <li>React</li>
+</ul>
