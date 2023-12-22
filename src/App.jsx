@@ -1,3 +1,4 @@
+import FaqsView from "./components/FaqsView";
 
 
 function App() {
@@ -5,8 +6,9 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">FAQ-accordion</h1>
+      <FaqsView />
     </>
+
   )
 }
 
