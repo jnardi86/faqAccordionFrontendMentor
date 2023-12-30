@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'tablet': '768px'
+      },
       colors: {
         'White': 'hsl(0, 0%, 100%)',
         'Light-pink': 'hsl(275, 100%, 97%)',

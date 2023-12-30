@@ -12,9 +12,9 @@ const Question = ({ question }) => {
     }
 
     return (
-        <article onClick={toggleShow}>
+        <article onClick={toggleShow} className='pr-2'>
             <div className='grid grid-cols-12'>
-                <h3 className='col-span-11 font-workSans font-bold py-5 text-lg cursor-pointer hover:text-Grayish-purple'>{question.question}</h3>
+                <h3 className='col-span-11 font-workSans font-bold py-5 pr-5 text-base cursor-pointer hover:text-Grayish-purple'>{question.question}</h3>
                 <button className='col-span-1 place-self-center' >
                     {
                         isShowingFaq ? <img src={minus} alt="minus-icon" /> : <img src={plus} alt="plus-icon" />
