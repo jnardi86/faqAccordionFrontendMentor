@@ -10,7 +10,7 @@ const FaqsView = () => {
 
 
   return (
-    <section className='min-h-screen max-w-[1440px] relative bg-Light-pink'>
+    <section className='min-h-screen relative bg-Light-pink'>
       <div>
         <picture>
           <source srcset={patternDesktop} media="(min-width: 600px)" />
